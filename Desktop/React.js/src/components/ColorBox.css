@@ -1,0 +1,31 @@
+.box-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.containerColor{
+    display: flex;
+    gap: 50px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    height: 200px;
+    border: none;
+    margin-bottom: 20px;
+}
+.colorName{
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    color: black;
+}
